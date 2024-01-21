@@ -3,15 +3,15 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "rykenのGarden",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    baseUrl: "ryken.cloud",
+    ignorePatterns: ["Private", "Templates", "CloudNative", "ProgramLanguage", "TmpFiles", "WeeklySummary", "WorkNotes", ".obsidian"],
+    defaultDateType: "modified",
     theme: {
       typography: {
         header: "Schibsted Grotesk",
